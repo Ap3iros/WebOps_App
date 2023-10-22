@@ -1,0 +1,53 @@
+.card {
+    background-color: black;
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid white;
+    border-radius: 40px;
+    /* position:; */
+    
+  }
+  
+  .card:hover {
+    /* background-color: rgb(225, 222, 222) ; */
+    /* border-color: black;
+    border-width: 5px; */
+    z-index: 5px;
+    margin: 10px;
+    /* padding: 10px; */
+
+    height: 260px;
+    width: 260px;    
+    cursor: pointer;
+  }
+
+  
+
+  
+
+  
+  h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    font-size: 55px;
+    /* text-transform:uppercase ; */
+
+  }
+  
+  p {
+    text-align:center;
+    color: white;
+    font-size: 20px;
+  }
+
+.card:hover p{
+    text-align:center;
+    color: yellow;
+    font-size: 20px;
+  }
+
+ 
